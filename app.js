@@ -1,4 +1,4 @@
-console.log(global);
+// console.log(global);
 
 global.setTimeout(() => {
     console.log("Set Time Out with global");
@@ -7,3 +7,6 @@ global.setTimeout(() => {
 setTimeout(() => {
     console.log('Set Time Out without global');
 }, 3000);
+
+console.log(__dirname);
+console.log(__filename);
